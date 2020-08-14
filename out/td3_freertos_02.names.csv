@@ -1,0 +1,372 @@
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000300 00000024 t vTarea2
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000324 00000028 t vTarea1
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:100000a8 00000004 b heap_end.5849
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0004fc 00000064 t prvHeapInit
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:100000b0 00002000 b ucHeap
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000560 00000058 t prvInsertBlockIntoFreeList
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:100000ac 00000004 b pxEnd
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:100020b0 00000004 b xBlockAllocatedBit
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:100020b4 00000004 b xFreeBytesRemaining
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:100020b8 00000004 b xMinimumEverFreeBytesRemaining
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:100020bc 00000008 b xStart
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00072c 0000001e t prvIsQueueFull
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00074a 0000001a t prvIsQueueEmpty
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000764 00000076 t prvCopyDataToQueue
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0007da 00000024 t prvCopyDataFromQueue
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0007fe 0000006e t prvUnlockQueue
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0008f0 00000022 t prvInitialiseNewQueue
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:100020c4 00000190 b uxIdleTaskStack.10798
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002254 00000640 b uxTimerTaskStack.10805
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002894 00000060 b xIdleTaskTCB.10797
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:100028f4 00000060 b xTimerTaskTCB.10804
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000ee8 0000002c t prvResetNextTaskUnblockTime
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000f14 00000092 t prvInitialiseNewTask
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000fa8 00000068 t prvInitialiseTaskLists
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001010 000000ac t prvAddNewTaskToReadyList
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0010bc 00000038 t prvDeleteTCB
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0010f4 0000004c t prvCheckTasksWaitingTermination
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001140 00000028 t prvIdleTask
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001168 00000098 t prvAddCurrentTaskToDelayedList
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002958 00000004 b pxDelayedTaskList
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1000295c 00000004 b pxOverflowDelayedTaskList
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002960 0000008c b pxReadyTasksLists
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:100029ec 00000004 b uxCurrentNumberOfTasks
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:100029f0 00000004 b uxDeletedTasksWaitingCleanUp
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:100029f4 00000004 b uxPendedTicks
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:100029f8 00000004 b uxSchedulerSuspended
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:100029fc 00000004 b uxTaskNumber
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002a00 00000004 b uxTopReadyPriority
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002a04 00000014 b xDelayedTaskList1
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002a18 00000014 b xDelayedTaskList2
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002a2c 00000004 b xNextTaskUnblockTime
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002a30 00000004 b xNumOfOverflows
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002a34 00000014 b xPendingReadyList
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002a48 00000004 b xSchedulerRunning
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002a4c 00000014 b xSuspendedTaskList
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002a60 00000014 b xTasksWaitingTermination
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002a74 00000004 b xTickCount
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002a78 00000004 b xYieldPending
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0019dc 00000020 t prvGetNextExpireTime
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0019fc 00000048 t prvInsertTimerInActiveList
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001a44 00000070 t prvCheckForValidListAndQueue
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001df4 00000016 t prvTimerTask
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001b84 00000078 t prvSwitchTimerLists
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001bfc 0000002c t prvSampleTimeNow
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001c28 00000060 t prvProcessExpiredTimer
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001c88 00000074 t prvProcessTimerOrBlockTask
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001cfc 000000f8 t prvProcessReceivedCommands
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002a7c 00000004 b pxCurrentTimerList
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002a80 00000004 b pxOverflowTimerList
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002a84 000000a0 b ucStaticTimerQueueStorage.11899
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002b24 00000014 b xActiveTimerList1
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002b38 00000014 b xActiveTimerList2
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002b4c 00000004 b xLastTime.11848
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002b50 00000050 b xStaticTimerQueue.11898
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002ba0 00000004 b xTimerQueue
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002ba4 00000004 b xTimerTaskHandle
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001e0c 00000040 t prvTaskExitError
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001e4c 00000022 t prvPortStartFirstTask
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001e74 0000000e t vPortEnableVFP
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001ee0 t pxCurrentTCBConst2
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001fc0 t pxCurrentTCBConst
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002ba8 00000001 b ucMaxSysCallPriority
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002bac 00000004 b ulMaxPRIGROUPValue
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10000008 00000004 d uxCriticalNesting
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0021b4 00000044 t Board_LED_Init
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0021f8 00000040 t Board_TEC_Init
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002238 00000040 t Board_GPIO_Init
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002278 00000030 t Board_ADC_Init
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0022a8 00000038 t Board_SPI_Init
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0022e0 00000024 t Board_I2C_Init
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004b7c 00000008 t GpioButtons
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004b84 0000000c t GpioLeds
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004b90 00000012 t GpioPorts
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004ba8 00000004 t InitClkStates
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004bac 00000074 t pinmuxing
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002454 0000002c t Chip_UART_GetIndex
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004c20 00000008 t UART_BClock
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004c28 00000008 t UART_PClock
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0025b0 00000014 t Chip_ADC_GetClockIndex
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0025c4 00000032 t getClkDiv
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00268c 000000a0 t pll_calc_divs
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00272c 0000010c t pll_get_frac
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002838 00000048 t Chip_Clock_FindBaseClock
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002aa4 00000022 t Chip_Clock_GetDivRate
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002bb4 00000008 b audio_usb_pll_freq
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004c38 0000006c t periph_to_base
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004ca4 00000048 t InitClkStates
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1000000c 00000038 d i2c
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002df0 00000014 t Chip_SSP_GetClockIndex
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002e04 00000018 t Chip_SSP_GetPeriphClockIndex
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002bbc 00000004 b g_hUsb
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0033a0 00000004 t __fp_lock
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0033b0 00000004 t __fp_unlock
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a003468 000000f4 t __sinit.part.0
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0039e0 0000003a t __sfputc_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10000048 00000060 d impure_data
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004d90 d __init_array_end
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004d8c ? __preinit_array_end
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004d8c d __init_array_start
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004d8c ? __preinit_array_start
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004a64 00000010 T _malloc_usable_size_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0028cc 0000001c T Chip_Clock_GetDividerSource
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000448 00000012 T _isatty_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004170 000000d8 T _puts_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W TIMER2_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00045a 0000000a T _lseek_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000184 00000002 W DebugMon_Handler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W RIT_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a080000 A __top_MFlashA512
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W ADCHS_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000114 T __section_table_start
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W FLASH_EEPROM_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001f28 0000002c T vPortExitCritical
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0012dc 00000020 T uxTaskPriorityGet
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W I2C0_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004138 00000038 T printf
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00239a 00000008 T __stdio_init
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0042c0 00000020 T __sseek
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a003570 00000008 T __sinit
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0042e8 000000b0 T __swbuf_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00017a 00000002 W HardFault_Handler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000d78 00000052 T vQueueWaitForMessageRestricted
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0033b4 0000002e T __sfmoreglue
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000000 A __vectors_start__
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00266a 0000000c T Chip_ADC_SetResolution
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004a14 00000002 T __malloc_unlock
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001fc4 0000002c T SysTick_Handler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0003a4 00000002 W initialise_monitor_handles
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W SDIO_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00233c 0000001c T Board_UARTGetChar
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W ATIMER_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004940 000000ce T memmove
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00355c 00000014 T _cleanup
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001f60 00000064 T PendSV_Handler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000b24 000000ce T xQueueGenericSendFromISR
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000178 00000002 W NMI_Handler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004d98 R __exidx_end
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000150 T __data_section_table_end
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W I2C1_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W UART1_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W GPIO5_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W CAN1_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002954 00000004 B pxCurrentTCB
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00043e 0000000a T _fstat_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:53ff74e6 A __valid_user_code_checksum
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00427c 00000004 T __seofread
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004d98 R _etext
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W USB1_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W I2S0_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0012fc 000000e8 T vTaskPrioritySet
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001860 00000018 T vTaskInternalSetTimeOutState
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W TIMER3_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002b48 0000000c T Chip_Clock_GetBaseClocktHz
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W UART0_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001a8 00000012 T bss_init
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002028 00000110 T xPortStartScheduler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a003698 00000134 T memcpy
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00176c 00000030 T vTaskPlaceOnEventList
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W SGPIO_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0033a4 0000000c T _cleanup_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001ff0 00000038 W vPortSetupTimerInterrupt
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002ef8 T __aeabi_uldivmod
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002c18 ? _noinit
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004248 00000010 T puts
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0006bc 00000070 T vPortFree
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10000004 00000004 D pcTextoTarea2
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002c10 00000004 B SystemCoreClock
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002480 00000054 T Chip_UART_Init
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W ADC0_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002138 0000005c T vPortValidateInterruptPriority
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004108 0000002e T _printf_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000180 00000002 W UsageFault_Handler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002bc4 0000004c T Chip_Clock_GetRate
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000de6 00000016 T vListInsertEnd
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W GPIO6_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0023dc 0000006c T Board_SetupClocking
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:20008000 A __top_RamAHB32
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0044a8 00000308 T __sfvwrite_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002f28 000002c2 T __udivmoddi4
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0004dc 00000020 T _sbrk_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004b78 00000004 T ExtRateIn
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W IntDefaultHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000300 T __CRP_WORD_END__
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000464 0000004e T _read_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000de0 00000006 T vListInitialiseItem
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W GPIO1_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000bf4 0000015c T xQueueReceive
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002bd0 00000040 B xQueueRegistry
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00337c 00000024 T fflush
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000e6c 00000018 T vApplicationGetTimerTaskMemory
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W SSP0_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004d90 R __exidx_start
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0002fc 00000004 T CRP_WORD
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004d4c 00000004 T _global_impure_ptr
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004a18 0000004c T _realloc_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a003650 00000048 T __libc_init_array
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W ADC1_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0005b8 00000104 T pvPortMalloc
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a003588 00000014 T __fp_lock_all
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002358 00000030 T Board_Init
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000432 00000002 W _init
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000dca 00000016 T vListInitialise
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000114 T __data_section_table
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001488 0000000c T xTaskGetTickCount
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0009a4 00000180 T xQueueGenericSend
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W RTC_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002c18 B _ebss
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W TIMER0_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0003a8 00000088 T Reset_Handler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:20010000 A __top_RamAHB_ETB16
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W SPI_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002db4 0000003c T Chip_I2C_SetClockRate
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001928 000000b4 T xTaskPriorityDisinherit
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W LCD_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002880 0000004c T Chip_Clock_EnableCrystal
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10008000 A __top_RamLoc32
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0017d4 0000008c T xTaskRemoveFromEventList
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000eb0 0000001c W vApplicationMallocFailedHook
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00018a 0000001e T data_init
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W TIMER1_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004cec 00000020 T __sf_fake_stderr
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002d8c 00000028 T Chip_I2C_Init
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W UART2_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002a3c 00000068 T Chip_Clock_GetMainPLLHz
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000e84 0000002c W vAssertCalled
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002e1c 00000012 T Chip_SSP_SetClockRate
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a003a1c 0000002e T __sfputs_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W GPIO2_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a003578 00000002 T __sfp_lock_acquire
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0048a0 T memchr
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002bc8 00000004 B task1
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001878 00000084 T xTaskCheckForTimeOut
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00386c 000000ac T _free_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002b20 00000028 T Chip_Clock_GetBaseClock
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:100000a8 B _bss
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002638 00000032 T Chip_ADC_SetSampleRate
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002bb0 00000004 B freeRtosInterruptCallback
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002bcc 00000004 B task2
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001478 00000010 T vTaskSuspendAll
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W I2S1_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002e2e 0000003e T Chip_SSP_SetBitRate
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000e2e 00000026 T uxListRemove
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002d68 00000002 T Chip_GPIO_Init
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10000000 00000004 D pcTextoTarea1
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004ba4 00000004 T OscRateIn
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001200 00000072 T xTaskCreateStatic
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002c18 ? _end_noinit
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10008000 A _vStackTop
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0016a4 000000c8 T vTaskSwitchContext
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004108 0000002e T _iprintf_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W SSP1_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000912 00000092 T xQueueGenericCreateStatic
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00179c 00000038 T vTaskPlaceOnEventListRestricted
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000178 T __bss_section_table_end
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000434 0000000a T _close_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000e54 00000018 T vApplicationGetIdleTaskMemory
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001b18 0000006c T xTimerGenericCommand
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0043a8 00000100 T __swsetup_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000ecc 0000001c W vApplicationStackOverflowHook
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0031ec 00000002 W __aeabi_ldiv0
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0033e4 00000084 T __sfp
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a003584 00000002 T __sinit_lock_release
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004258 00000022 T __sread
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002edc 0000001c T USB0_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W GPIO3_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004a10 00000002 T __malloc_lock
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002328 00000014 T Board_UARTPutChar
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W SCT_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00331c 00000060 T _fflush_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004d2c 00000020 T __sf_fake_stdin
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0028e8 0000001c T Chip_Clock_GetDividerDivisor
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0002fc T __CRP_WORD_START__
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0037cc 000000a0 T memset
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00017c 00000002 W MemManage_Handler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00034c 00000058 T main
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004398 00000010 T __swbuf
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W WDT_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000dfc 00000032 T vListInsert
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:2000c000 A __top_RamAHB16
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1008a000 A __top_RamLoc40
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001ec0 00000024 T SVC_Handler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0042e0 00000008 T __sclose
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001ab4 00000064 T xTimerCreateTimerTask
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a003918 000000c8 T _malloc_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W GPIO7_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002b54 0000003c T Chip_Clock_EnableOpts
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002392 00000008 T __stdio_getchar
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0035b0 0000004a T _fwalk
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002904 000000b8 T Chip_Clock_GetClockInputHz
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0029bc 00000080 T Chip_Clock_CalcMainPLLValue
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a003d2c 00000018 T vfiprintf
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002ea4 00000038 T SystemInit
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W SPIFI_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W QEI_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000150 T __bss_section_table
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000430 00000002 W _fini
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004138 00000038 T iprintf
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0015ac 000000f8 T xTaskResumeAll
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0013e4 00000094 T vTaskStartScheduler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0025f8 00000040 T Chip_ADC_Init
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002c14 00000004 B g_pUsbApi
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0023a4 00000038 T Board_SetupMuxing
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0024d4 000000dc T Chip_UART_SetBaudFDR
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0004b2 00000028 T _write_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W ETH_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a003d44 0000012a T _printf_common
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10000044 00000004 D _impure_ptr
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0031f0 0000012a T __sflush_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10000000 ? _end_uninit_RESERVED
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W CAN0_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10000000 D _data
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00359c 00000014 T __fp_unlock_all
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0018fc 0000000c T vTaskMissedYield
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002c18 B _pvHeapStart
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000178 T __section_table_end
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002e6c 00000038 T Chip_SSP_Init
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000d50 00000028 T vQueueAddToRegistry
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W GINT0_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001494 00000118 T xTaskIncrementTick
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0047b0 0000005a T __swhatbuf_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002194 00000020 T DAC_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002304 00000024 T Board_Debug_Init
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002388 0000000a T __stdio_putchar
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00086c 00000084 T xQueueGenericReset
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:100000a8 D _edata
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002d6c 00000020 T Chip_I2C_EventHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W M0SUB_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001272 00000068 T xTaskCreate
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002c10 00000158 T Chip_SetupCoreClock
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004280 0000003e T __swrite
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W GPIO0_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a003a68 000002c4 T _vfiprintf_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000000 00000040 T g_pfnVectors
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0035fc 00000052 T _fwalk_reent
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002678 00000014 T SystemCoreClockUpdate
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W DMA_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W EVRT_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1b080000 A __top_MFlashB512
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00357c 00000002 T __sfp_lock_release
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a004d0c 00000020 T __sf_fake_stdout
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001908 00000020 T xTaskGetSchedulerState
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0031ec 00000002 W __aeabi_idiv0
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00017e 00000002 W BusFault_Handler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a00480c 00000094 T __smakebuf_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001e88 0000002c T pxPortInitialiseStack
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a003e70 00000298 T _printf_i
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002b90 00000034 T Chip_Clock_Enable
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W UART3_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002bc4 00000004 B __malloc_sbrk_start
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W MCPWM_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a003a4c 0000001a T __sprint_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W M0APP_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a001ee4 00000044 T vPortEnterCritical
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:10002bc0 00000004 B __malloc_free_list
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a000040 000000d4 T g_pfnVendorVectors
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a003a68 000002c4 T _vfprintf_r
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W GINT1_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002ac8 00000058 T Chip_Clock_SetBaseClock
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a003d2c 00000018 T vfprintf
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a0001ba 00000002 W GPIO4_IRQHandler
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a003580 00000002 T __sinit_lock_acquire
+examples0/c/td3/td3_freertos_02/out/td3_freertos_02.elf:1a002448 0000000c T Board_SystemInit
